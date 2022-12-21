@@ -18,7 +18,7 @@ modelo = joblib.load(nome)
 st.title('Preditor de gravidade COVID-19')
 rdw = st.number_input('RDW (%)',min_value=(10),max_value=(9000))
 leu = st.number_input('Leucócitos (x109/L)',min_value=(0),max_value=(270))
-lin = st.number_input('Linfócitos (x109/L)',min_value=(1),max_value=(270))#
+lin = st.number_input('Linfócitos (x109/L)',min_value=(1))#
 mon = st.number_input('Monócitos (x109/L)',min_value=(1))#
 neu = st.number_input('Neutrófilos (x109/L)',min_value=(1),max_value=(35))
 pcr = st.number_input('PCR (mg/dL)')
